@@ -1,28 +1,24 @@
 # API Reference
 
-DerbyFish exposes REST APIs through two services:
-
-- **derbyfish-web** — Main application API (Next.js API routes)
-- **derbyfish-flow** — Flow blockchain integration API (Python Flask)
+DerbyFish provides a REST API for integrating with the platform.
 
 ## Authentication
 
-All API requests require a valid Supabase JWT token in the `Authorization` header:
+All API requests require a valid access token in the `Authorization` header:
 
 ```
-Authorization: Bearer <supabase_jwt_token>
+Authorization: Bearer <access_token>
 ```
 
-Tokens are obtained through Supabase Auth (email/password or OAuth).
+Tokens are obtained through the DerbyFish authentication flow.
 
-## Base URLs
+## Base URL
 
-| Service | URL |
-|---------|-----|
-| Main API | https://derby.fish/api |
-| Flow API | https://flow.derby.fish |
+```
+https://derby.fish/api
+```
 
-## Main API Endpoints
+## Endpoints
 
 ### Derbies
 
@@ -59,15 +55,6 @@ Tokens are obtained through Supabase Auth (email/password or OAuth).
 |--------|------|-------------|
 | GET | /api/shops | List shops |
 | POST | /api/shops | Register a shop (captain only) |
-
-## Flow API Endpoints
-
-| Method | Path | Description |
-|--------|------|-------------|
-| POST | /verify | Submit BHRV verification to blockchain |
-| GET | /verify/[tx_id] | Check verification status |
-| GET | /wallet/[address] | Get BAIT balance |
-| POST | /wallet/transfer | Transfer BAIT |
 
 ## Rate Limits
 

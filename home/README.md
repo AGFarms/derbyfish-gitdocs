@@ -17,7 +17,7 @@ DerbyFish powers fishing competitions with blockchain-verified catches. Our BHRV
 
 - Host branded fishing derbies that drive foot traffic
 - Set up custom prizes, entry fees, and competition rules
-- Get a branded captain dashboard at captain.derby.fish
+- Get a branded captain dashboard
 - QR codes for in-store signups — anglers scan and join instantly
 
 ## For Sponsors
@@ -26,15 +26,15 @@ DerbyFish powers fishing competitions with blockchain-verified catches. Our BHRV
 - Get logo placement on leaderboards and derby pages
 - Track engagement and ROI through the captain dashboard
 
-## Revenue Model
+## Pricing
 
 | Tier | Price | Includes |
 |------|-------|----------|
-| Member | $2/mo | Join derbies, leaderboards, $1/mo goes to prize pool |
-| Captain | $6/mo | Unlimited derbies, blast messaging, $2/mo to prize pool |
+| Member | $2/mo | Join derbies, leaderboards, prize pool contributions |
+| Captain | $6/mo | Unlimited derbies, blast messaging |
 | Pro (Shops) | $100/mo | Branded derbies, analytics, co-marketing |
 
-## Links
+## Learn More
 
 - [Documentation](../docs/)
 - [API Reference](../api/)
