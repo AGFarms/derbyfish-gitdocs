@@ -1,5 +1,9 @@
 # Changelog
 
-Auto-generated changelog entries from merged pull requests across all DerbyFish repositories.
+What's new at DerbyFish — product updates, new features, and improvements.
 
-Entries are organized by date. Each entry includes the repository, PR title, and a link to the pull request.
+Updates are organized by month. Each entry is categorized as:
+
+- **New** — brand-new features and capabilities
+- **Improved** — enhancements to existing functionality
+- **Fixed** — bug fixes and resolved issues
